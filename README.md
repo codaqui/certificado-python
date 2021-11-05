@@ -7,4 +7,4 @@ Quer estudar para tirar essa certificação?! Acompanhe [aqui](https://github.co
 
 ## Já estudou?! Se sente preparado?! Vamos lá!
 
-Acesse [aqui](/submissão) e siga o passo a passo para enviar a sua certificação.
+Acesse [aqui](/projetos) e siga o passo a passo para enviar a sua certificação.
