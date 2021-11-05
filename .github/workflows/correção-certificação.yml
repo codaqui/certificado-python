@@ -1,18 +1,27 @@
 name: Correção e Certificação
 on: [pull_request]
 jobs:
-  Intro:
+  Codaqui:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "🎉 Muito legal, você está tentando realizar a certificação de Python da Codaqui!"
-      
-      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
-      
-      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
-      
+      - name: BoasVindas
+        run: |
+          echo "🎉 Muito legal, você está tentando realizar a certificação de Python da Codaqui!"
+          echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
+          echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+
       - name: Check out repository code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2   
         
       - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
-      
-      - run: python submissão/projeto1/main.py
+    
+      - name: "Projeto 1"
+        run: |
+          hello_world_output=$(python submissão/projeto1/main.py)
+          if [ "$hello_world_output" != "Hello World!" ]; then
+              echo "Ocorreu um erro, não conseguimos identificar o Hello World!";
+              exit 1;
+          else
+              echo "✔️ Esta atividade está aprovada!";
+          fi
+  
