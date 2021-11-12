@@ -1,4 +1,4 @@
-from projeto2 import main
+from .projeto2 import main
 
 def test_texto():
   assert main.texto == 'texto'
