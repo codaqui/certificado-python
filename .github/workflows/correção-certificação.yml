@@ -15,13 +15,19 @@ jobs:
         
       - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
     
-      - name: "Projeto 1"
+      - name: "Projeto 1 - Hello World!"
         run: |
           hello_world_output=$(python submissão/projeto1/main.py)
           if [ "$hello_world_output" != "Hello World!" ]; then
-              echo "Ocorreu um erro, não conseguimos identificar o Hello World!";
+              echo "❌ Ocorreu um erro, não conseguimos identificar o Hello World!";
               exit 1;
           else
               echo "✔️ Esta atividade está aprovada!";
           fi
+          
+      - name: "Projeto 2 - Tipos e Variáveis"
+        run: |
+          cd tests/projeto2
+          pip3 install pytest
+          pytest
   
