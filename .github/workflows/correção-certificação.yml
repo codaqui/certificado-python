@@ -27,7 +27,6 @@ jobs:
           
       - name: "Projeto 2 - Tipos e Variáveis"
         run: |
-          cd tests/projeto2
           pip3 install pytest
           pytest
   
