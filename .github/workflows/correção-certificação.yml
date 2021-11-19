@@ -17,7 +17,7 @@ jobs:
     
       - name: "Projeto 1 - Hello World!"
         run: |
-          hello_world_output=$(python submissão/projeto1/main.py)
+          hello_world_output=$(python submission/projeto1/main.py)
           if [ "$hello_world_output" != "Hello World!" ]; then
               echo "❌ Ocorreu um erro, não conseguimos identificar o Hello World!";
               exit 1;
@@ -29,5 +29,5 @@ jobs:
         run: |
           pip3 install pytest
           cd submissão
-          pytest
+          
   

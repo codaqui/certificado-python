@@ -1,6 +1,6 @@
 # Projeto 2 - Variáveis e Tipos de Variáveis
 
-1. No seu fork deste repositório, dentro da pasta `submissão`, crie uma pasta `projeto2`.
+1. No seu fork deste repositório, dentro da pasta `submission`, crie uma pasta `projeto2`.
 2. Dentro dessa pasta `projeto2`, crie um arquivo com o nome: `main.py`.
 3. O seu arquivo deverá em ordem:
 
