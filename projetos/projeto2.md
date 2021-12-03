@@ -9,5 +9,5 @@
 2. Definir uma variável chamada numero com o valor de 2.
 3. Definir uma variável chamada boleano com o valor de False.
 4. Crie uma conta que realize uma soma, subtração, multiplicação ou uma divisão com o numero 55 e o resultado deverá ser maior que 90 e menor que 100. Você deverá salvar isso em uma variável chamada desafio1.
-5. Definir uma variável chamada quebrado com o valor de float(2.2 + 4.5).
+5. Definir uma variável chamada `dinheiro` que represente o valor de R$7,50, e consiguimos utilizar em contas.
 ```
