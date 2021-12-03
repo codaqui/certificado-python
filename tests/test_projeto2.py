@@ -21,5 +21,5 @@ def test_syntax_desafio():
   # Verifica se nessa linha tem o valor 55, e possui uma operação valida. (+, -, , *, ^)
   assert True
   
- def mais_de_numero():
-  assert main.quebrado == float(2.2 + 4.5)
+ def test_dinheiro():
+  assert main.dinheiro == 7.5
