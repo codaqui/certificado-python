@@ -1,16 +1,16 @@
 # Projeto 3 - Variáveis e Tipos de Variáveis
 
-1. No seu fork deste repositório, dentro da pasta `submission`, crie uma pasta `projeto2`.
-2. Dentro dessa pasta `projeto2`, crie um arquivo com o nome: `main.py`.
+1. No seu fork deste repositório, dentro da pasta `submission`, crie uma pasta `projeto3`.
+2. Dentro dessa pasta `projeto3`, crie um arquivo com o nome: `main.py`.
 3. O seu arquivo deverá em ordem:
 
-1 - Dado a seguinte lista
+1 - Copie o codigo abaixo e cole no arquivo.
 
 ```python
 lista_de_compras = ['Banana', 'Arroz', 'Laranja']
 ```
 
-Verifique se existe `Uva` na `lista_de_compras`.
+**Exercicio** Verifique se existe `Uva` na `lista_de_compras`.
 
 2 - Dado a seguinte lista
 
