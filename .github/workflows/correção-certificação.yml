@@ -32,5 +32,8 @@ jobs:
           
       - name: "Projeto 2 - Tipos e Variáveis"
         run: |
-          pip3 install pytest
-          python3 -m pytest 
+          pytest tests/test_projeto2.py
+          
+      - name: "Projeto 3 - Listas e Coleções"
+        run: |
+          pytest tests/test_projeto3.py
