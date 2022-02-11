@@ -18,7 +18,7 @@ jobs:
       - name: "⚙️ Configurando verificação automática de certificado..."
         run: |
           pip3 install pytest
-          pytest tests/test_config.py
+          python -m pytest tests/test_config.py
     
       - name: "Projeto 1 - Hello World!"
         run: |
@@ -32,8 +32,8 @@ jobs:
           
       - name: "Projeto 2 - Tipos e Variáveis"
         run: |
-          pytest tests/test_projeto2.py
+          python -m pytest tests/test_projeto2.py
           
       - name: "Projeto 3 - Listas e Coleções"
         run: |
-          pytest tests/test_projeto3.py
+          python -m pytest tests/test_projeto3.py
