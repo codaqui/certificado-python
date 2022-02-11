@@ -10,7 +10,7 @@ def test_boolean():
   assert main.boleano == False
   
 def test_conta_desafio_1():
-  assert 90 > main.desafio1 > 100
+  assert 90 < main.desafio1 < 100
   
 def test_syntax_desafio():
   # Abrir o arquivo submission.projeto2
