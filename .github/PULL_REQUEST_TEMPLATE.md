@@ -6,7 +6,7 @@ Cidade: <preencha-sua-cidade>
 
 ## Opcional:
 
-Matricula Codaqui: <preencha-com-seu-registro-codaqui>
+E-mail Codaqui: <preencha-com-seu-email-codaqui>@alunos.codaqui.dev
 
 ## Checklist
 
