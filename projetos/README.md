@@ -10,6 +10,7 @@
 
 - [Projeto 1](projeto1.md)
 - [Projeto 2](projeto2.md)
+- [Projeto 3](projeto3.md)
 
 ## Abra Pull Request
 
