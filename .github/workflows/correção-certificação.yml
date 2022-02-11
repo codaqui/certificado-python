@@ -18,7 +18,7 @@ jobs:
       - name: "⚙️ Configurando verificação automática de certificado..."
         run: |
           pip3 install pytest
-          python -m pytest tests/test_config.py
+          pytest tests/test_config.py
     
       - name: "Projeto 1 - Hello World!"
         run: |
