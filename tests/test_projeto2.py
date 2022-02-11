@@ -21,5 +21,5 @@ def test_syntax_desafio():
   # Verifica se nessa linha tem o valor 55, e possui uma operação valida. (+, -, , *, ^)
   assert True
   
- def test_dinheiro():
+def test_dinheiro():
   assert main.dinheiro == 7.5
