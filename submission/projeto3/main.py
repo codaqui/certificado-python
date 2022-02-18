@@ -1,2 +1,3 @@
 lista_de_compras = ['Banana', 'Arroz', 'Laranja']
-'Uva' in lista_de_compras
+if 'Uva' in lista_de_compras:
+  print('Eu consegui!')
