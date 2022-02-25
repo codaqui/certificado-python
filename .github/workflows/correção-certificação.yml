@@ -37,3 +37,5 @@ jobs:
       - name: "Projeto 3 - Listas e Coleções"
         run: |
           python -m pytest tests/test_projeto3.py
+# TODO
+# 1 - Verificar arquivos utilizando py_compile, para visualizar sem executar.
