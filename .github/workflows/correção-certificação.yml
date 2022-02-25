@@ -43,9 +43,9 @@ jobs:
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
-            github.issues.createComment({
-              issue_number: ${{ github.event.number }},
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: ':warning: Have you followed the [contributions guidance](<contribution_guidance_url>)? Content PRs should generally be made against the the [source repo](https://github.com/<owner>/<repo>).'
+              body: '👋 Thanks for reporting!'
             })
