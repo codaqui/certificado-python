@@ -37,5 +37,18 @@ jobs:
       - name: "Projeto 3 - Listas e Coleções"
         run: |
           python -m pytest tests/test_projeto3.py
-# TODO
-# 1 - Verificar arquivos utilizando py_compile, para visualizar sem executar.
+          
+      - uses: actions/github-script@v6
+        name: ⚠️ Atenção - Avaliador 
+        with:
+          script: |
+          
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '⚠️ Atenção Revisor! 
+              \n Os seguintes exercicios devem ser corrigidos manualmente:
+              \n - Projeto 3 - Exercicio 2.
+              '
+            })
