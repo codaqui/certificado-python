@@ -20,7 +20,7 @@ jobs:
           pip3 install pytest
           python -m pytest tests/test_config.py
     
-      - name: "Projeto 1 - Hello World!"
+      - name: "📚 Projeto 1 - Hello World!"
         run: |
           hello_world_output=$(python submission/projeto1/main.py)
           if [ "$hello_world_output" != "Hello World!" ]; then
@@ -30,12 +30,21 @@ jobs:
               echo "✔️ Esta atividade está aprovada!";
           fi
           
-      - name: "Projeto 2 - Tipos e Variáveis"
+      - name: "📚 Projeto 2 - Tipos e Variáveis"
         run: |
           python -m pytest tests/test_projeto2.py
           
-      - name: "Projeto 3 - Listas e Coleções"
+      - name: "📚 Projeto 3 - Listas e Coleções"
         run: |
           python -m pytest tests/test_projeto3.py
-# TODO
-# 1 - Verificar arquivos utilizando py_compile, para visualizar sem executar.
+          
+      - uses: actions/github-script@v6
+        name: ⚠️ Atenção - Avaliador 
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '⚠️ Atenção Revisor! Os seguintes exercicios devem ser corrigidos manualmente: Projeto 3 - Exercicio 2.'
+            })
