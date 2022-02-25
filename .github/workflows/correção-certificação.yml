@@ -41,10 +41,11 @@ jobs:
       - uses: actions/github-script@v6
         name: ⚠️ Atenção - Avaliador 
         with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
-            await github.rest.issues.createComment({
-              issue_number: context.issue.number,
+            github.issues.createComment({
+              issue_number: ${{ github.event.number }},
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: '⚠️ Atenção Revisor! Os seguintes exercicios devem ser corrigidos manualmente: Projeto 3 - Exercicio 2.'
+              body: ':warning: Have you followed the [contributions guidance](<contribution_guidance_url>)? Content PRs should generally be made against the the [source repo](https://github.com/<owner>/<repo>).'
             })
