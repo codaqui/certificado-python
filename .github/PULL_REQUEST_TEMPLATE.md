@@ -16,3 +16,4 @@ Marque os itens abaixo conforme for completando as atividades.
 - [ ] Leitura de todos os projetos.
 - [ ] Projeto 1 - Realizado
 - [ ] Projeto 2 - Realizado
+- [ ] Projeto 3 - Realizado
