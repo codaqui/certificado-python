@@ -13,16 +13,16 @@ lista_de_compras = ['Banana', 'Arroz', 'Laranja']
 
 **Exercicio**
 
-- Crie um código que verifica o objeto `Uva` existe na `lista_de_compras`. Faça a verificação logo após definir a lista.
+- Crie um código que verifica o objeto `Uva` existe na `lista_de_compras`, caso existe utilize print para algum texto. Faça a verificação logo após definir a lista.
 
 ---
-2 - Dado a seguinte lista
+2 - Copie o codigo abaixo e cole no mesmo arquivo, logo após a ultima resposta..
 
 ```python
 lista_de_numeros = [50, 60, 834241542, 5433302]
 ```
 
-Verifique se a soma dos números em `lista_de_numeros` é maior do que `86422542`.
+Verifique se a soma dos números em `lista_de_numeros` é maior do que `86422542`, caso seja `print('soma é maior')`.
 
 ---
 3 - Dado a seguinte lista
