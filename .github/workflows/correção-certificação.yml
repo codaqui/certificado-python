@@ -58,3 +58,7 @@ jobs:
         run: |
           echo "🎉 Muito legal, tudo indica que seu certificado foi aprovado!"
           echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+          echo "🔎 Usuário: ${{ github.event.pull_request.user.login }} (${{ github.event.pull_request.user.id }})"
+          echo "🔎 ID do Certificado: ${{ github.event.pull_request.id }}"
+          echo "🔎 Titulo: ${{ github.event.pull_request.title }}"
+          
