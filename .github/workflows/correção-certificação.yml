@@ -1,5 +1,12 @@
 name: Correção e Certificação
-on: [pull_request]
+on: 
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - labeled
+      - unlabeled
 jobs:
   Codaqui:
     name: Execução dos Testes
