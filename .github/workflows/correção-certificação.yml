@@ -2,7 +2,9 @@ name: Correção e Certificação
 on: [pull_request]
 jobs:
   Codaqui:
+    name: Execução dos Testes
     runs-on: ubuntu-latest
+    if: contains( github.event.pull_request.labels.*.name, 'Executar')
     steps:
     
       # A gente só vai corrigir o exercicio que for enviado para correção.
