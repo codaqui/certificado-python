@@ -61,4 +61,6 @@ jobs:
           echo "🔎 Usuário: ${{ github.event.pull_request.user.login }} (${{ github.event.pull_request.user.id }})"
           echo "🔎 ID do Certificado: ${{ github.event.pull_request.id }}"
           echo "🔎 Titulo: ${{ github.event.pull_request.title }}"
+          bash certificado/generator.sh ${{ github.event.pull_request.user.login }} ${{ github.event.pull_request.user.id }} ${{ github.event.pull_request.id }} ${{ github.event.pull_request.title }}
+          
           
