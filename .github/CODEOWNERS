@@ -1,5 +1,3 @@
 # Codeowners of Codaqui
 
-* @codaqui/conselho
-
-projetos/* @codaqui/certificado-python
+* @codaqui/conselho @codaqui/certificado-python

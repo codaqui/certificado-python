@@ -1,9 +1,21 @@
 name: Correção e Certificação
-on: [pull_request]
+on: 
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - labeled
+      - unlabeled
 jobs:
   Codaqui:
+    name: Execução dos Testes
     runs-on: ubuntu-latest
+    if: contains( github.event.pull_request.labels.*.name, 'Executar')
     steps:
+    
+      # A gente só vai corrigir o exercicio que for enviado para correção.
+    
       - name: BoasVindas
         run: |
           echo "🎉 Muito legal, você está tentando realizar a certificação de Python da Codaqui!"
@@ -38,12 +50,8 @@ jobs:
         run: |
           python -m pytest tests/test_projeto3.py
           
-      - uses: actions/github-script@v6
-        with:
-          script: |
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: '👋 Thanks for reporting!'
-            })
+      # Mais etapas que forem simples automatizar.
+      
+      # Etapa Ultima Etapa: Avisar o avaliador lista de exercicios para corrigir manualmente.
+      
+      # Caso PR-Aprovado - Gerar certificado.
