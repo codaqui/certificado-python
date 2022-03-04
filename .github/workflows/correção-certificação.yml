@@ -14,8 +14,6 @@ jobs:
     if: contains( github.event.pull_request.labels.*.name, 'Executar')
     steps:
     
-      # A gente só vai corrigir o exercicio que for enviado para correção.
-    
       - name: BoasVindas
         run: |
           echo "🎉 Muito legal, você está tentando realizar a certificação de Python da Codaqui!"
@@ -49,9 +47,14 @@ jobs:
       - name: "📚 Projeto 3 - Listas e Coleções"
         run: |
           python -m pytest tests/test_projeto3.py
-          
-      # Mais etapas que forem simples automatizar.
-      
-      # Etapa Ultima Etapa: Avisar o avaliador lista de exercicios para corrigir manualmente.
-      
-      # Caso PR-Aprovado - Gerar certificado.
+  
+  Certificado:
+    name: Aprovado! Vamos gerar o seu certificado =)
+    runs-on: ubuntu-latest
+    if: contains( github.event.pull_request.labels.*.name, 'Aprovado')
+    steps:
+
+      - name: Aprovação!
+        run: |
+          echo "🎉 Muito legal, tudo indica que seu certificado foi aprovado!"
+          echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
