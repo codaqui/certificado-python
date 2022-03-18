@@ -15,6 +15,7 @@
 - [Projeto 5 - Coleções em Python](projeto5.md)
 - [Projeto 6 - Funções](projeto6.md)
 - [Projeto 7 - Comprehensions em Python](projeto7.md)
+- [Projeto 8 - Expressões Lambdas e Funções Integradas](projeto8.md)
 
 ## Abra Pull Request
 
