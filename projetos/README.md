@@ -13,7 +13,7 @@
 - [Projeto 3 - Condicionais](projeto3.md)
 - [Projeto 4 - Estruturas de Repetição](projeto4.md)
 - [Projeto 5 - Coleções em Python](projeto5.md)
-- [Projeto 6](projeto6.md)
+- [Projeto 6 - Funções](projeto6.md)
 
 ## Abra Pull Request
 
