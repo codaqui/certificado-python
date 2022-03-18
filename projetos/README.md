@@ -16,6 +16,7 @@
 - [Projeto 6 - Funções](projeto6.md)
 - [Projeto 7 - Comprehensions em Python](projeto7.md)
 - [Projeto 8 - Expressões Lambdas e Funções Integradas](projeto8.md)
+- [Projeto 9 - Debugando e Tratando Erros](projeto9.md)
 
 ## Abra Pull Request
 
