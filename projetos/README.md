@@ -11,6 +11,9 @@
 - [Projeto 1](projeto1.md)
 - [Projeto 2](projeto2.md)
 - [Projeto 3](projeto3.md)
+- [Projeto 4](projeto4.md)
+- [Projeto 5](projeto5.md)
+- [Projeto 6](projeto6.md)
 
 ## Abra Pull Request
 
