@@ -1,6 +1,6 @@
 # Projeto 13 - Decoradore
 
-1. Crie um decorador que possa fazer com que a função abaixo, sempre retorne o `valor * 2`
+1. Crie um decorador que possa fazer com que as funções abaixo, sempre que executadas exibam um print('Nome da função' e 'argumentos')
 
 ```python
 def somar_dois_numeros(a,b):
