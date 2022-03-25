@@ -18,6 +18,7 @@
 - [Projeto 8 - Expressões Lambdas e Funções Integradas](projeto8.md)
 - [Projeto 9 - Debugando e Tratando Erros](projeto9.md)
 - [Projeto 10 - Trabalhando com Modulos](projeto10.md)
+- [Projeto 11 - Leitura e Escrita de Arquivos](projeto11.md)
 
 ## Abra Pull Request
 
