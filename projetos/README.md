@@ -19,6 +19,8 @@
 - [Projeto 9 - Debugando e Tratando Erros](projeto9.md)
 - [Projeto 10 - Trabalhando com Modulos](projeto10.md)
 - [Projeto 11 - Leitura e Escrita de Arquivos](projeto11.md)
+- [Projeto 12 - Iteradores e Geradores](projeto12.md)
+- [Projeto 13 - Decoradores](projeto13.md)
 
 ## Abra Pull Request
 
