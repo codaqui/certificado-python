@@ -4,7 +4,5 @@ Esse repositório serve de exercicio para você concluir os seus estudos em Pyth
 
 ## Já estudou?! Se sente preparado?! Vamos lá!
 
-![Botão do Codespaces](.github/image/codespace.svg)
-
 1. Acesse esse repositório via Codespaces.
 2. No Codespaces selecione a pasta `/projetos/` e realize os exercicios propostos.
