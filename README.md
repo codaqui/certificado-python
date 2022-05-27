@@ -1,10 +1,8 @@
 # Certificação Trilha de Conhecimento Python
 
-Esse é um repositório para teste da Certificação Python da Codaqui.
-
-Quer estudar para tirar essa certificação?! Acompanhe [aqui](https://github.com/codaqui/institucional-trilhas-estudos/blob/main/guias/programador-python.md) a nossa trilha de estudos.
-
+Esse repositório serve de exercicio para você concluir os seus estudos em Python seguindo a [trilha de estudos](https://github.com/codaqui/institucional-trilhas-estudos/blob/main/guias/programador-python.md) da Codaqui.
 
 ## Já estudou?! Se sente preparado?! Vamos lá!
 
-Acesse [aqui](/projetos) e siga o passo a passo para enviar a sua certificação.
+1. Acesse esse repositório via Codespaces.
+2. No Codespaces selecione a pasta `/projetos/` e realize os exercicios propostos.
