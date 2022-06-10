@@ -330,7 +330,9 @@ dividir_dois_numeros(4,2)
 1. Dentro da pasta `projetos` crie o arquivo `projeto12.py`.
 2. O seu arquivo deverá em ordem executar os exercicios abaixo:
     
-    #TODO
+**Exercicios**:
+1. Crie utilizando um iterador/gerador um código capaz de exibir 15 números da sequencia de Fibonacci.
+2. Crie utilizando um iterador/gerador um código capaz de verificar números divisíveis por 10 sem conter resto.
 
 
 </details>
