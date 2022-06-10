@@ -357,11 +357,12 @@ def dividir_dois_numeros(a,b):
 ```
 
 </details>
+
 ---
 <details>
 <summary>Projeto 14 - Orientação da Objetos</summary>
 
-1. Dentro da pasta `projetos` crie o arquivo `projeto12.py`.
+1. Dentro da pasta `projetos` crie o arquivo `projeto14.py`.
 2. O seu arquivo deverá em ordem executar os exercicios abaixo:
 
 **Exercicios**:
@@ -369,11 +370,12 @@ def dividir_dois_numeros(a,b):
 
 
 </details>
+
 ---
 <details>
 <summary>Projeto 15 - Herança e Polimorfismo</summary>
 
-1. Dentro da pasta `projetos` crie o arquivo `projeto12.py`.
+1. Dentro da pasta `projetos` crie o arquivo `projeto15.py`.
 2. O seu arquivo deverá em ordem executar os exercicios abaixo:
 
 **Exercicios**:
@@ -381,11 +383,12 @@ def dividir_dois_numeros(a,b):
 
 
 </details>
+
 ---
 <details>
-<summary>Projeto 16 - Teste</summary>
+<summary>Projeto 16 - Trabalhando com Testes</summary>
 
-1. Dentro da pasta `projetos` crie o arquivo `projeto12.py`.
+1. Dentro da pasta `projetos` crie o arquivo `projeto16.py`.
 2. O seu arquivo deverá em ordem executar os exercicios abaixo:
 
 **Exercicios**:
