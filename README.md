@@ -367,7 +367,13 @@ def dividir_dois_numeros(a,b):
 
 **Exercicios**:
 
+1. Crie utilizando Objetos e Classes, um pequeno sistema capaz de cadastrar/buscar livros em uma varíavel global.
+    
+**Dica**:
 
+- O seu usuário precisa de um menu, onde ele possa escolher, cadastrar livro, buscar livro, sair.
+- O seu usuário informa Nome / Ano de Lançamento / Autor.
+- Utilize metodos para acessar os atributos do livro.
 
 </details>
 
