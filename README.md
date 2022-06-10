@@ -41,7 +41,7 @@ Esse repositório serve de exercicio para você concluir os seus estudos em Pyth
 ---
 
 <details>
-    <summary>Projeto 3 - Variáveis e Tipos de Variáveis</summary>
+    <summary>Projeto 3 - Estruturas Lógicas e Condicionais</summary>
 
 1. Dentro da pasta `projetos` crie o arquivo `projeto3.py`.
 2. O seu arquivo deverá em ordem executar os exercicios abaixo:
@@ -267,29 +267,6 @@ lista_de_numeros = [2, 4, 6, 8]
 <details>
 <summary>Projeto 9 - Debugando e Tratando Erros</summary>
 
-1. Dentro da pasta `projetos` crie o arquivo `projeto8.py`.
-2. O seu arquivo deverá em ordem executar os exercicios abaixo:
-
-**Exercicios**:
-
-1. Crie uma função que some dois valores, quando o usuário digitar um valor que não seja `float` ou `int` você irá dar `print` em uma mensagem de erro e não deixando o interpretador retornar erro.
-2. Crie um programa que a pessoa possa consultar alunos, dado o dicionário abaixo, se a pessoa digitar um nome que não existe, retorne uma mensagem de erro sem deixar o interpreador retornar o erro.
-
-```python
-
-dict_alunos = {
-  'joao' : { 'nome': 'joao', 'idade': 14 },
-  'maria' : { 'nome': 'maria', 'idade': 14 },
-}
-```
-
-
-</details>
-
----
-<details>
-<summary>Projeto 9 - Debugando e Tratando Erros</summary>
-
 1. Dentro da pasta `projetos` crie o arquivo `projeto9.py`.
 2. O seu arquivo deverá em ordem executar os exercicios abaixo:
 
@@ -333,7 +310,7 @@ dividir_dois_numeros(4,2)
 
 ---
 <details>
-<summary>Projeto 11 - Trabalhando com Modulos</summary>
+<summary>Projeto 11 - Leitura e Escrita em Arquivos</summary>
 
 1. Dentro da pasta `projetos` crie o arquivo `projeto11.py`.
 2. O seu arquivo deverá em ordem executar os exercicios abaixo:
@@ -342,6 +319,7 @@ dividir_dois_numeros(4,2)
 
 1. Crie um arquivo `texto.txt` e insira uma contagem de números de 0 a 10.
 2. Crie uma lista de dicionários simulando um cadastro de usuário, contendo `usuario, senha` e salve em um json nomeado: `top_secret.json`.
+3. Crie um CSV com as colunas Materia | Nota | Bimestre, faça esse csv ser capaz de salvar dados de notas escolares.
 
 </details>
 
@@ -351,9 +329,8 @@ dividir_dois_numeros(4,2)
 
 1. Dentro da pasta `projetos` crie o arquivo `projeto12.py`.
 2. O seu arquivo deverá em ordem executar os exercicios abaixo:
-
-**Exercicios**:
-
+    
+    #TODO
 
 
 </details>
@@ -376,5 +353,41 @@ def somar_dois_numeros(a,b):
 def dividir_dois_numeros(a,b):
   return a / b
 ```
+
+</details>
+---
+<details>
+<summary>Projeto 14 - Orientação da Objetos</summary>
+
+1. Dentro da pasta `projetos` crie o arquivo `projeto12.py`.
+2. O seu arquivo deverá em ordem executar os exercicios abaixo:
+
+**Exercicios**:
+
+
+
+</details>
+---
+<details>
+<summary>Projeto 15 - Herança e Polimorfismo</summary>
+
+1. Dentro da pasta `projetos` crie o arquivo `projeto12.py`.
+2. O seu arquivo deverá em ordem executar os exercicios abaixo:
+
+**Exercicios**:
+
+
+
+</details>
+---
+<details>
+<summary>Projeto 16 - Teste</summary>
+
+1. Dentro da pasta `projetos` crie o arquivo `projeto12.py`.
+2. O seu arquivo deverá em ordem executar os exercicios abaixo:
+
+**Exercicios**:
+
+
 
 </details>
