@@ -2,6 +2,8 @@
 
 Esse repositório serve de exercicio para você concluir os seus estudos em Python seguindo a [trilha de estudos](https://github.com/codaqui/institucional-trilhas-estudos/blob/main/guias/programador-python.md) da Codaqui.
 
+## Versão do Certificado: 1.0.0
+
 ## Já estudou?! Se sente preparado?! Vamos lá!
 
 **Observações**:
@@ -385,6 +387,9 @@ def dividir_dois_numeros(a,b):
 2. O seu arquivo deverá em ordem executar os exercicios abaixo:
 
 **Exercicios**:
+    
+1. Crie um pequeno exemplo para explicar herança e polimorfismo com automoveís.
+2. Seu código deverá criar Carros, Onibus, Bicicletas... De diferentes modelos e atributos utilizando os conceitos abordados nesse tópico.
 
 
 
@@ -398,7 +403,9 @@ def dividir_dois_numeros(a,b):
 2. O seu arquivo deverá em ordem executar os exercicios abaixo:
 
 **Exercicios**:
-
+    
+1. Crie dentro do seu arquivo pelo menos 5 testes para exercicios anteriores.
+2. Será válido testes em contas, textos... Utilize testes!
 
 
 </details>
