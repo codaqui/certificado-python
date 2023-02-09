@@ -4,6 +4,20 @@ Esse repositório serve de exercicio para você concluir os seus estudos em Pyth
 
 Ao concluir este Módulo você será recompensado com o seguinte certificado: https://www.holopin.io/sticker/clctd3ncl775208la30bra67y
 
+## Preencha os dados
+
+Para preencher os dados edite o arquivo `README.md` neste repositório.
+
+```text
+Nome:
+Cidade/Estado (opcional):
+Idade:
+E-mail:
+Telefone (opcional):
+```
+
+<small>Caso preencha a Cidade e Estado, iremos te incluir em nosso banco de dados de alunos e utilizamos os dados para analises estatisticas. O número de telefone se preenchido será para te adicionar a nossa comunidade no Whatsapp.</small>
+
 ![Imagem do Certificado de Python da Codaqui](https://www.holopin.io/_next/image?url=https%3A%2F%2Fassets.holopin.io%2FeyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbGN0ZDdjZmYyMjEzMDhtc21iZDUwY2NvIiwiZWRpdHMiOnsicm90YXRlIjpudWxsfX0%3D&w=1920&q=75)
 
 ## Versão do Certificado: 1.0.0
