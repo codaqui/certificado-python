@@ -2,6 +2,10 @@
 
 Esse repositório serve de exercicio para você concluir os seus estudos em Python seguindo a [trilha de estudos](https://github.com/codaqui/institucional-trilhas-estudos/blob/main/guias/programador-python.md) da Codaqui.
 
+Ao concluir este Módulo você será recompensado com o seguinte certificado: https://www.holopin.io/sticker/clctd3ncl775208la30bra67y
+
+![Imagem do Certificado de Python da Codaqui](https://www.holopin.io/_next/image?url=https%3A%2F%2Fassets.holopin.io%2FeyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbGN0ZDdjZmYyMjEzMDhtc21iZDUwY2NvIiwiZWRpdHMiOnsicm90YXRlIjpudWxsfX0%3D&w=1920&q=75)
+
 ## Versão do Certificado: 1.0.0
 
 ## Já estudou?! Se sente preparado?! Vamos lá!
