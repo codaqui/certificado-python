@@ -416,7 +416,18 @@ def dividir_dois_numeros(a,b):
 
 ---
 <details>
-<summary>Projeto 17 - Interagindo com o sistema operacional</summary>
+<summary>Projeto 17 - Data e hora</summary>
+
+1. Dentro da pasta `projetos` crie o arquivo `projeto17.py`.
+2. O seu arquivo deverá em ordem executar os exercicios abaixo:
+
+**Exercicios**:
+    
+1. Seu programa deverá exibir o dia da semana que foi 07/09/2022
+2. Seu programa deverá exibir a difereça de dias entre 11/11/1918 e 01/09/1939
+
+=======
+<summary>Projeto 18 - Interagindo com o sistema operacional</summary>
 
 1. Dentro da pasta `projetos` crie o arquivo `projeto17.py`.
 2. Dentro da pasta `projetos` crie o arquivo `lista.txt`.
@@ -432,7 +443,7 @@ def dividir_dois_numeros(a,b):
 
 ---
 <details>
-<summary>Projeto 18 - Consumindo dados de fontes externas</summary>
+<summary>Projeto 19 - Consumindo dados de fontes externas</summary>
 
 1. Dentro da pasta `projetos` crie o arquivo `projeto18.py`.
 2. Faça um código capaz de imprimir dados da [API](https://api.github.com/) do github.
