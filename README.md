@@ -1,6 +1,6 @@
 # Certificação Trilha de Conhecimento Python
 
-Esse repositório serve de exercicio para você concluir os seus estudos em Python seguindo a [trilha de estudos](https://github.com/codaqui/institucional-trilhas-estudos/blob/main/guias/programador-python.md) da Codaqui.
+Esse repositório serve de exercicio para você concluir os seus estudos em Python seguindo a [trilha de estudos](https://github.com/codaqui/institucional-trilhas-estudos/blob/main/guias/programador-python.md) da Codaqui. Se tiver qualquer dúvida sobre o que fazer envie um e-mail para [contato@codaqui.dev](mailto:contato@codaqui.dev)
 
 Ao concluir este Módulo você será recompensado com o seguinte certificado: https://www.holopin.io/sticker/clctd3ncl775208la30bra67y
 
