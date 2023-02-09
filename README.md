@@ -1,6 +1,10 @@
 # Certificação Trilha de Conhecimento Python
 
-Esse repositório serve de exercicio para você concluir os seus estudos em Python seguindo a [trilha de estudos](https://github.com/codaqui/institucional-trilhas-estudos/blob/main/guias/programador-python.md) da Codaqui.
+Esse repositório serve de exercicio para você concluir os seus estudos em Python seguindo a [trilha de estudos](https://github.com/codaqui/institucional-trilhas-estudos/blob/main/guias/programador-python.md) da Codaqui. Se tiver qualquer dúvida sobre o que fazer envie um e-mail para [contato@codaqui.dev](mailto:contato@codaqui.dev)
+
+Ao concluir este Módulo você será recompensado com o seguinte certificado: https://www.holopin.io/sticker/clctd3ncl775208la30bra67y
+
+![Imagem do Certificado de Python da Codaqui](https://www.holopin.io/_next/image?url=https%3A%2F%2Fassets.holopin.io%2FeyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbGN0ZDdjZmYyMjEzMDhtc21iZDUwY2NvIiwiZWRpdHMiOnsicm90YXRlIjpudWxsfX0%3D&w=1920&q=75)
 
 ## Versão do Certificado: 1.0.0
 
@@ -422,5 +426,31 @@ def dividir_dois_numeros(a,b):
 1. Seu programa deverá exibir o dia da semana que foi 07/09/2022
 2. Seu programa deverá exibir a difereça de dias entre 11/11/1918 e 01/09/1939
 
+=======
+<summary>Projeto 18 - Interagindo com o sistema operacional</summary>
+
+1. Dentro da pasta `projetos` crie o arquivo `projeto17.py`.
+2. Dentro da pasta `projetos` crie o arquivo `lista.txt`.
+3. O seu arquivo deverá em ordem executar os exercicios abaixo:
+
+**Exercicios**:
+ 
+1. Crie nomes separados por linhas para a `lista.txt` .
+2. Crie um código que seja capaz de abrir o arquivo de texto.
+3. Faça seu código imprimir os nomes dentro do arquivo de texto. 
+
+</details>
+
+---
+<details>
+<summary>Projeto 19 - Consumindo dados de fontes externas</summary>
+
+1. Dentro da pasta `projetos` crie o arquivo `projeto18.py`.
+2. Faça um código capaz de imprimir dados da [API](https://api.github.com/) do github.
+3. A partir de um `input` faça seu programa retornar dados de um usuário do github pesquisado.
+
+**Extra**:
+
+1. usando o mesmo arquivo adicione a biblioteca urllib.request, e crie um código capaz de imprimir informações de fontes externas.
 
 </details>
