@@ -413,3 +413,33 @@ def dividir_dois_numeros(a,b):
 
 
 </details>
+
+---
+<details>
+<summary>Projeto 17 - Interagindo com o sistema operacional</summary>
+
+1. Dentro da pasta `projetos` crie o arquivo `projeto17.py`.
+2. Dentro da pasta `projetos` crie o arquivo `lista.txt`.
+3. O seu arquivo deverá em ordem executar os exercicios abaixo:
+
+**Exercicios**:
+ 
+1. Crie nomes separados por linhas para a `lista.txt` .
+2. Crie um código que seja capaz de abrir o arquivo de texto.
+3. Faça seu código imprimir os nomes dentro do arquivo de texto. 
+
+</details>
+
+---
+<details>
+<summary>Projeto 18 - Consumindo dados de fontes externas</summary>
+
+1. Dentro da pasta `projetos` crie o arquivo `projeto18.py`.
+2. Faça um código capaz de imprimir dados da [API](https://api.github.com/) do github.
+3. A partir de um `input` faça seu programa retornar dados de um usuário do github pesquisado.
+
+**Extra**:
+
+1. usando o mesmo arquivo adicione a biblioteca urllib.request, e crie um código capaz de imprimir informações de fontes externas.
+
+</details>
