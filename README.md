@@ -28,7 +28,7 @@ Telefone (opcional):
 
 - Realize todos os projetos abaixo. Não precisa ser em ordem, mas deverá realizar todos para concluir o curso e adquirir o certificado.
 - A correção automática não é garantia de que está tudo correto, fique atento na aba **Pull Requests** um mentor irá acompanhar o seu desenvolvimento.
-- Qualquer dúvida, entre no nosso Discord e procure um mentor para ajudar.
+- Qualquer dúvida, você pode abrir uma Issue, perguntar no Discord ou até mesmo chamar algum mentor no Whatsapp.
 
 ## Projetos
 
