@@ -29,6 +29,7 @@ Telefone (opcional):
 - Realize todos os projetos abaixo. Não precisa ser em ordem, mas deverá realizar todos para concluir o curso e adquirir o certificado.
 - A correção automática não é garantia de que está tudo correto, fique atento na aba **Pull Requests** um mentor irá acompanhar o seu desenvolvimento.
 - Qualquer dúvida, você pode abrir uma Issue, perguntar no Discord ou até mesmo chamar algum mentor no Whatsapp.
+- Sendo aprovado, você deve abrir uma solicitação [clicando aqui](https://github.com/codaqui/institucional/issues/new/choose) para um mentor gerar o seu certificado.
 
 ## Projetos
 
@@ -74,7 +75,7 @@ Telefone (opcional):
 ```python
 lista_de_compras = ['Banana', 'Arroz', 'Laranja']
 ```
- 
+
 </details>
 
 <details>
@@ -127,10 +128,10 @@ O módulo time fornece uma função, também chamada time, que devolve a Hora M�
 >>> time.time()
 1437746094.5735958
 ```
+
 Escreva um script que leia a hora atual e a converta em um tempo em horas, minutos e segundos, mais o número de dias desde a época.
 
 </details>
-
 
 </details>
 
@@ -145,16 +146,16 @@ Escreva um script que leia a hora atual e a converta em um tempo em horas, minut
 **Exercicios**:
 
 1. Dada a seguinte lista abaixo.
-2. Crie um código que seja capaz de imprimir(_print_) todos os valores contidos na lista. 
+2. Crie um código que seja capaz de imprimir(_print_) todos os valores contidos na lista.
 
- ```python
+```python
 nomes = ["Enderson", "Luiz Fernando", "Pedro", "Isis", "Kamily", "Bianca", "Mell Steissy", "Caio"]
- ```
-
+```
 
 </details>
 
 ---
+
 <details>
 <summary>Projeto 5 - Coleções em Python</summary>
 
@@ -165,42 +166,42 @@ nomes = ["Enderson", "Luiz Fernando", "Pedro", "Isis", "Kamily", "Bianca", "Mell
 
 1. Copie e cole a lista a seguir dentro do seu código.
 2. Com a lista declarada, remova o primeiro e segundo index da `lista_de_numeros`.
- 
- ```python
+
+```python
 lista_de_numeros = [12, 23, 34, 45]
- ```
- 
- 
+```
+
 1. Defina a tupla a seguir.
 2. Crie um código capaz de verificar qual time não possui Mundial.
-3. Crie uma lista com os times que restarem da verificação.  
- 
- ```python
+3. Crie uma lista com os times que restarem da verificação.
+
+```python
 times_com_mundial = ('Corinthians', 'Santos', 'Palmeiras', 'Flamengo')
- ```
- 
+```
+
 1. Dado o seguinte conjunto, uma lista de dicionários.
-2. Crie um código que seja capaz de printar o curso que Milena está realizando. 
- 
- ```python
+2. Crie um código que seja capaz de printar o curso que Milena está realizando.
+
+```python
 dados_do_aluno_1 = {
-    'Nome': 'Milena',
-    'Curso': 'Programação',
-    'Turno': 'tarde',
-    'Telefone': '9999999'
+   'Nome': 'Milena',
+   'Curso': 'Programação',
+   'Turno': 'tarde',
+   'Telefone': '9999999'
 }
 dados_do_aluno_2 = {
-    'Nome': 'Vitor',
-    'Curso': 'Design de Aplicativos',
-    'Turno': 'tarde',
-    'Telefone': '9999999'
+   'Nome': 'Vitor',
+   'Curso': 'Design de Aplicativos',
+   'Turno': 'tarde',
+   'Telefone': '9999999'
 }
 lista_de_alunos = [dados_do_aluno_1, dados_do_aluno_2]
- ```
+```
 
 </details>
 
 ---
+
 <details>
 <summary>Projeto 6 - Funções</summary>
 
@@ -211,25 +212,26 @@ lista_de_alunos = [dados_do_aluno_1, dados_do_aluno_2]
 
 1. Dado o conhecimento de Movimento Retilinio Uniforme, e lembrando da equação `S = S0 + v.t` escreva um programa que responda todos os casos da tabela abaixo.
 
-| Espaço Final | Espaço Inicial | Velocidade | Tempo |
-| ------------ | -------------- | ---------- | ----- |
-| ? | 100 metros | 10 metros | 10 metros/segundo | 10 segundos |
-| ? | 75 metros | 5 metros | 12 metros/segundo | 5 segundos |
-| ? | 150 metros | 25 metros | 15 metros/segundo | 25 segundos |
+| Espaço Final | Espaço Inicial | Velocidade | Tempo             |
+| ------------ | -------------- | ---------- | ----------------- | ----------- |
+| ?            | 100 metros     | 10 metros  | 10 metros/segundo | 10 segundos |
+| ?            | 75 metros      | 5 metros   | 12 metros/segundo | 5 segundos  |
+| ?            | 150 metros     | 25 metros  | 15 metros/segundo | 25 segundos |
 
 Dica: Crie uma função, e execute essa mesma função várias vezes com parametros diferentes.
 
 2. Crie uma função que dado uma palavra, a sua função irá sempre retorna a mesma palavra, porém todas as letras em minusculo.
 
-| Parametro | Retorno |
-| --------- | ------- |
-| HORA | hora |
-| HoRa | hora |
-| DeSCulpA | desculpa |
+| Parametro | Retorno  |
+| --------- | -------- |
+| HORA      | hora     |
+| HoRa      | hora     |
+| DeSCulpA  | desculpa |
 
 </details>
 
 ---
+
 <details>
 <summary>Projeto 7 - Comprehensions em Python</summary>
 
@@ -239,7 +241,6 @@ Dica: Crie uma função, e execute essa mesma função várias vezes com paramet
 **Exercicios**:
 
 1. Crie utilizando apenas uma linha, uma lista chamada `numeros`, e essa lista vai conter todos os numeros de 1 a 10 multiplicado por 2.
-
 
 ```python
 # Dica
@@ -261,10 +262,10 @@ lista_de_compras = ['Banana', 'Abacate', 'Uva', 'Melão', 'Colher', 'Ovo', 'Quei
 possui_a = [ verdadeiro quando a palavra tem a e falso quando não tem para todas as palavras da lista]
 ```
 
-
 </details>
 
 ---
+
 <details>
 <summary>Projeto 8 - Expressões Lambdas e Funções Integradas</summary>
 
@@ -280,10 +281,10 @@ possui_a = [ verdadeiro quando a palavra tem a e falso quando não tem para toda
 lista_de_numeros = [2, 4, 6, 8]
 ```
 
-
 </details>
 
 ---
+
 <details>
 <summary>Projeto 9 - Debugando e Tratando Erros</summary>
 
@@ -302,7 +303,6 @@ dict_alunos = {
   'maria' : { 'nome': 'maria', 'idade': 14 },
 }
 ```
-
 
 </details>
 
@@ -329,6 +329,7 @@ dividir_dois_numeros(4,2)
 </details>
 
 ---
+
 <details>
 <summary>Projeto 11 - Leitura e Escrita em Arquivos</summary>
 
@@ -344,20 +345,22 @@ dividir_dois_numeros(4,2)
 </details>
 
 ---
+
 <details>
 <summary>Projeto 12 - Iteradores e Geradores</summary>
 
 1. Dentro da pasta `projetos` crie o arquivo `projeto12.py`.
 2. O seu arquivo deverá em ordem executar os exercicios abaixo:
-    
+
 **Exercicios**:
+
 1. Crie utilizando um iterador/gerador um código capaz de exibir 15 números da sequencia de Fibonacci.
 2. Crie utilizando um iterador/gerador um código capaz de verificar números divisíveis por 10 sem conter resto.
-
 
 </details>
 
 ---
+
 <details>
 <summary>Projeto 13 - Decoradores</summary>
 
@@ -371,7 +374,7 @@ dividir_dois_numeros(4,2)
 ```python
 def somar_dois_numeros(a,b):
   return a + b
-  
+
 def dividir_dois_numeros(a,b):
   return a / b
 ```
@@ -379,6 +382,7 @@ def dividir_dois_numeros(a,b):
 </details>
 
 ---
+
 <details>
 <summary>Projeto 14 - Orientação da Objetos</summary>
 
@@ -388,7 +392,7 @@ def dividir_dois_numeros(a,b):
 **Exercicios**:
 
 1. Crie utilizando Objetos e Classes, um pequeno sistema capaz de cadastrar/buscar livros em uma varíavel global.
-    
+
 **Dica**:
 
 - O seu usuário precisa de um menu, onde ele possa escolher, cadastrar livro, buscar livro, sair.
@@ -398,6 +402,7 @@ def dividir_dois_numeros(a,b):
 </details>
 
 ---
+
 <details>
 <summary>Projeto 15 - Herança e Polimorfismo</summary>
 
@@ -405,15 +410,14 @@ def dividir_dois_numeros(a,b):
 2. O seu arquivo deverá em ordem executar os exercicios abaixo:
 
 **Exercicios**:
-    
+
 1. Crie um pequeno exemplo para explicar herança e polimorfismo com automoveís.
 2. Seu código deverá criar Carros, Onibus, Bicicletas... De diferentes modelos e atributos utilizando os conceitos abordados nesse tópico.
-
-
 
 </details>
 
 ---
+
 <details>
 <summary>Projeto 16 - Trabalhando com Testes</summary>
 
@@ -421,14 +425,14 @@ def dividir_dois_numeros(a,b):
 2. O seu arquivo deverá em ordem executar os exercicios abaixo:
 
 **Exercicios**:
-    
+
 1. Crie dentro do seu arquivo pelo menos 5 testes para exercicios anteriores.
 2. Será válido testes em contas, textos... Utilize testes!
-
 
 </details>
 
 ---
+
 <details>
 <summary>Projeto 17 - Data e hora</summary>
 
@@ -436,11 +440,12 @@ def dividir_dois_numeros(a,b):
 2. O seu arquivo deverá em ordem executar os exercicios abaixo:
 
 **Exercicios**:
-    
+
 1. Seu programa deverá exibir o dia da semana que foi 07/09/2022
 2. Seu programa deverá exibir a difereça de dias entre 11/11/1918 e 01/09/1939
 
 =======
+
 <summary>Projeto 18 - Interagindo com o sistema operacional</summary>
 
 1. Dentro da pasta `projetos` crie o arquivo `projeto17.py`.
@@ -448,14 +453,15 @@ def dividir_dois_numeros(a,b):
 3. O seu arquivo deverá em ordem executar os exercicios abaixo:
 
 **Exercicios**:
- 
+
 1. Crie nomes separados por linhas para a `lista.txt` .
 2. Crie um código que seja capaz de abrir o arquivo de texto.
-3. Faça seu código imprimir os nomes dentro do arquivo de texto. 
+3. Faça seu código imprimir os nomes dentro do arquivo de texto.
 
 </details>
 
 ---
+
 <details>
 <summary>Projeto 19 - Consumindo dados de fontes externas</summary>
 
@@ -470,6 +476,7 @@ def dividir_dois_numeros(a,b):
 </details>
 
 ---
+
 <details>
 <summary>Projeto Final</summary>
 
