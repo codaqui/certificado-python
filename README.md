@@ -235,7 +235,7 @@ Dica: Crie uma função, e execute essa mesma função várias vezes com paramet
 <details>
 <summary>Projeto 7 - Comprehensions em Python</summary>
 
-1. Dentro da pasta `projetos` crie o arquivo `projeto6.py`.
+1. Dentro da pasta `projetos` crie o arquivo `projeto7.py`.
 2. O seu arquivo deverá em ordem executar os exercicios abaixo:
 
 **Exercicios**:
@@ -269,7 +269,7 @@ possui_a = [ verdadeiro quando a palavra tem a e falso quando não tem para toda
 <details>
 <summary>Projeto 8 - Expressões Lambdas e Funções Integradas</summary>
 
-1. Dentro da pasta `projetos` crie o arquivo `projeto7.py`.
+1. Dentro da pasta `projetos` crie o arquivo `projeto8.py`.
 2. O seu arquivo deverá em ordem executar os exercicios abaixo:
 
 **Exercicios**:
@@ -448,7 +448,7 @@ def dividir_dois_numeros(a,b):
 
 <summary>Projeto 18 - Interagindo com o sistema operacional</summary>
 
-1. Dentro da pasta `projetos` crie o arquivo `projeto17.py`.
+1. Dentro da pasta `projetos` crie o arquivo `projeto18.py`.
 2. Dentro da pasta `projetos` crie o arquivo `lista.txt`.
 3. O seu arquivo deverá em ordem executar os exercicios abaixo:
 
@@ -465,7 +465,7 @@ def dividir_dois_numeros(a,b):
 <details>
 <summary>Projeto 19 - Consumindo dados de fontes externas</summary>
 
-1. Dentro da pasta `projetos` crie o arquivo `projeto18.py`.
+1. Dentro da pasta `projetos` crie o arquivo `projeto19.py`.
 2. Faça um código capaz de imprimir dados da [API](https://api.github.com/) do github.
 3. A partir de um `input` faça seu programa retornar dados de um usuário do github pesquisado.
 
