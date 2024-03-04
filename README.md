@@ -18,7 +18,7 @@ Telefone (opcional):
 
 <small>Caso preencha a Cidade e Estado, iremos te incluir em nosso banco de dados de alunos e utilizamos os dados para analises estatisticas. O número de telefone se preenchido será para te adicionar a nossa comunidade no Whatsapp.</small>
 
-![Imagem do Certificado de Python da Codaqui](https://www.holopin.io/_next/image?url=https%3A%2F%2Fassets.holopin.io%2FeyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbGN0ZDdjZmYyMjEzMDhtc21iZDUwY2NvIiwiZWRpdHMiOnsicm90YXRlIjpudWxsfX0%3D&w=1920&q=75)
+![Imagem do Certificado de Python da Codaqui](https://assets.holopin.io/eyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbGN0ZDdjZmYyMjEzMDhtc21iZDUwY2NvIiwiZWRpdHMiOnsicm90YXRlIjpudWxsfX0=)
 
 ## Versão do Certificado: 1.0.0
 
